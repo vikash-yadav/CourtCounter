@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="16dp"
+                android:text="LAKERS"
+                android:textStyle="italic|bold"
+                android:textColor="#24b4a3"
+                android:textSize="14sp" />
+
+            <TextView
+                android:background="@drawable/lakers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/Lakers_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="16dp"
+                android:fontFamily="sans-serif-light"
+                android:text="0"
+                android:textStyle="bold"
+                android:textColor="#24b4a3"
+                android:textSize="25sp" />
+
+
+            <Button style="@style/Widget.AppCompat.Button.Colored"
+                android:id="@+id/one_runLakers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:onClick="addOneForLakers"
+                android:text="1 Point" />
+
+            <Button style="@style/Widget.AppCompat.Button.Colored"
+                android:id="@+id/twoRunLakers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:onClick="addTwoForLakers"
+
+                android:text="2 Point" />
+
+            <Button style="@style/Widget.AppCompat.Button.Colored"
+                android:id="@+id/threeRunLakers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:onClick="addThreeForLakers"
+                android:text="3 Pointer" />
+
+            <Button style="@style/Widget.AppCompat.Button"
+                android:id="@+id/foul_Lakers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="54dp"
+                android:layout_marginRight="24dp"
+                android:onClick="foulLakers"
+                android:text="Foul"
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray">
+
+        </View>
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="16dp"
+                android:text="CELTICS"
+                android:textStyle="italic|bold"
+                android:textColor="#24b4a3"
+                android:textSize="14sp" />
+
+            <TextView
+                android:background="@drawable/celtics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+             />
+
+            <TextView
+                android:id="@+id/Celtics_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="16dp"
+                android:fontFamily="sans-serif-light"
+                android:text="0"
+                android:textStyle="bold"
+                android:textColor="#24b4a3"
+                android:textSize="25sp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:id="@+id/one_runCeltics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:onClick="addOneForCeltics"
+                android:text="1 Point" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:id="@+id/two_RunCeltics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:onClick="addTwoForCeltics"
+                android:text="2 Point" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:id="@+id/threeRunCeltics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:onClick="addthreeForCeltics"
+                android:text="3 Pointer" />
+
+
+            <Button
+
+                android:id="@+id/foul_Celtics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="54dp"
+                android:layout_marginRight="24dp"
+                android:onClick="foulCeltics"
+                style="@style/Widget.AppCompat.Button"
+                android:text="Foul"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="resetScore"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#D50000"
+        android:text="Reset"
+          />
+
+  </RelativeLayout>
+
+
+</ScrollView>
