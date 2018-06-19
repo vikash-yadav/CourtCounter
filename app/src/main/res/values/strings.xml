@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Court Counter</string>
+    <string name="desc">Team logo Section</string>
+    <string name="teamName1">LAKERS</string>
+    <string name="teamName2">CELTICS</string>
+    <string name="zero">0</string>
+    <string name="onePoint">1 Point</string>
+    <string name="twoPoint">2 Point</string>
+    <string name="threePoint">3 Point</string>
 </resources>

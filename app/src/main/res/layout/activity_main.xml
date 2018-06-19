@@ -7,12 +7,13 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
+        android:contentDescription="@string/desc"
         />
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:padding="16dp"
-                android:text="LAKERS"
+                android:text="@string/teamName1"
                 android:textStyle="italic|bold"
                 android:textColor="#24b4a3"
                 android:textSize="14sp" />
@@ -49,7 +50,7 @@
                 android:gravity="center_horizontal"
                 android:padding="16dp"
                 android:fontFamily="sans-serif-light"
-                android:text="0"
+                android:text="@string/zero"
                 android:textStyle="bold"
                 android:textColor="#24b4a3"
                 android:textSize="25sp" />
@@ -63,7 +64,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addOneForLakers"
-                android:text="1 Point" />
+                android:text="@string/onePoint" />
 
             <Button style="@style/Widget.AppCompat.Button.Colored"
                 android:id="@+id/twoRunLakers"
@@ -74,7 +75,7 @@
                 android:layout_marginRight="24dp"
                 android:onClick="addTwoForLakers"
 
-                android:text="2 Point" />
+                android:text="@string/twoPoint" />
 
             <Button style="@style/Widget.AppCompat.Button.Colored"
                 android:id="@+id/threeRunLakers"
@@ -84,7 +85,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addThreeForLakers"
-                android:text="3 Pointer" />
+                android:text="@string/threePoint" />
 
             <Button style="@style/Widget.AppCompat.Button"
                 android:id="@+id/foul_Lakers"
@@ -121,7 +122,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:padding="16dp"
-                android:text="CELTICS"
+                android:text="@string/teamName2"
                 android:textStyle="italic|bold"
                 android:textColor="#24b4a3"
                 android:textSize="14sp" />
@@ -139,7 +140,7 @@
                 android:gravity="center_horizontal"
                 android:padding="16dp"
                 android:fontFamily="sans-serif-light"
-                android:text="0"
+                android:text="@string/zero"
                 android:textStyle="bold"
                 android:textColor="#24b4a3"
                 android:textSize="25sp" />
@@ -153,7 +154,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addOneForCeltics"
-                android:text="1 Point" />
+                android:text="@string/onePoint" />
 
             <Button
                 style="@style/Widget.AppCompat.Button.Colored"
@@ -164,7 +165,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addTwoForCeltics"
-                android:text="2 Point" />
+                android:text="@string/twoPoint" />
 
             <Button
                 style="@style/Widget.AppCompat.Button.Colored"
@@ -175,7 +176,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addthreeForCeltics"
-                android:text="3 Pointer" />
+                android:text="@string/threePoint" />
 
 
             <Button
