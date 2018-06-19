@@ -95,7 +95,7 @@
                 android:layout_marginLeft="54dp"
                 android:layout_marginRight="24dp"
                 android:onClick="foulLakers"
-                android:text="Foul"
+                android:text="@string/foulButtonText"
                 />
 
 
@@ -189,7 +189,7 @@
                 android:layout_marginRight="24dp"
                 android:onClick="foulCeltics"
                 style="@style/Widget.AppCompat.Button"
-                android:text="Foul"
+                android:text="@string/foulButtonText"
                 />
 
         </LinearLayout>
@@ -203,8 +203,8 @@
         android:onClick="resetScore"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="#D50000"
-        android:text="Reset"
+        android:background="#C1264E"
+        android:text="@string/resetButtonText"
           />
 
   </RelativeLayout>

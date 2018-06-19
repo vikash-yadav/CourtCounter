@@ -7,4 +7,6 @@
     <string name="onePoint">1 Point</string>
     <string name="twoPoint">2 Point</string>
     <string name="threePoint">3 Point</string>
+    <string name="foulButtonText">FOUL</string>
+    <string name="resetButtonText">RESET</string>
 </resources>
