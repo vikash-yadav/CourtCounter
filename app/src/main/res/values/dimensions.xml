@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="height_size">14sp</dimen>
+    <dimen name="width_size">16sp</dimen>
+    <dimen name="value_size">25sp</dimen>
+    <dimen name="margin_bottom">8dp</dimen>
+    <dimen name="margin_rl">24dp</dimen>
+    <dimen name="margin_top">16dp</dimen>
+    <dimen name="margin_leftR">54dp</dimen>
+    <dimen name="width_lay">1dp</dimen>
+
+</resources>

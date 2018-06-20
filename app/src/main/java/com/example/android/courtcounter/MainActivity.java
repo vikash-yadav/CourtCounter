@@ -8,6 +8,8 @@ package com.example.android.courtcounter;
         import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+//    initialization of variables
     int scoreLakers = 0;
     int scoreCeltics = 0;
 
@@ -21,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     /**
-     * Displays the given score for Team A.
+     * Displays predefined score for Team A.
      */
     public void displayForLakers(int score) {
         TextView scoreView = (TextView) findViewById(R.id.Lakers_score);
@@ -54,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     /**
-     * Displays the given score for Team B.
+     * Displays predefined score for Team B.
      */
     public void displayForCeltics(int score) {
         TextView scoreView = (TextView) findViewById(R.id.Celtics_score);

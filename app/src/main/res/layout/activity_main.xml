@@ -29,10 +29,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:padding="16dp"
+                    android:padding="@dimen/height_size"
                     android:text="@string/teamName1"
-                    android:textColor="#24b4a3"
-                    android:textSize="14sp"
+                    android:textColor="@color/colorScore"
+                    android:textSize="@dimen/width_size"
                     android:textStyle="italic|bold" />
 
                 <TextView
@@ -44,12 +44,11 @@
                     android:id="@+id/Lakers_score"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:font="Arial"
                     android:gravity="center_horizontal"
-                    android:padding="16dp"
+                    android:padding="@dimen/width_size"
                     android:text="@string/zero"
-                    android:textColor="#24b4a3"
-                    android:textSize="25sp"
+                    android:textColor="@color/colorScore"
+                    android:textSize="@dimen/value_size"
                     android:textStyle="bold" />
 
 
@@ -58,9 +57,9 @@
                     style="@style/Widget.AppCompat.Button.Colored"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginLeft="@dimen/margin_rl"
+                    android:layout_marginRight="@dimen/margin_rl"
                     android:onClick="addOneForLakers"
                     android:text="@string/onePoint" />
 
@@ -69,9 +68,9 @@
                     style="@style/Widget.AppCompat.Button.Colored"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginLeft="@dimen/margin_rl"
+                    android:layout_marginRight="@dimen/margin_rl"
                     android:onClick="addTwoForLakers"
 
                     android:text="@string/twoPoint" />
@@ -81,9 +80,9 @@
                     style="@style/Widget.AppCompat.Button.Colored"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginLeft="@dimen/margin_rl"
+                    android:layout_marginRight="@dimen/margin_rl"
                     android:onClick="addThreeForLakers"
                     android:text="@string/threePoint" />
 
@@ -92,11 +91,11 @@
                     style="@style/Widget.AppCompat.Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginEnd="24dp"
-                    android:layout_marginLeft="54dp"
-                    android:layout_marginRight="24dp"
-                    android:layout_marginStart="54dp"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginEnd="@dimen/margin_rl"
+                    android:layout_marginLeft="@dimen/margin_leftR"
+                    android:layout_marginRight="@dimen/margin_rl"
+                    android:layout_marginStart="@dimen/margin_leftR"
                     android:onClick="foulLakers"
                     android:text="@string/foulButtonText" />
 
@@ -104,9 +103,9 @@
             </LinearLayout>
 
             <View
-                android:layout_width="1dp"
+                android:layout_width="@dimen/width_lay"
                 android:layout_height="match_parent"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="@dimen/margin_top"
                 android:background="@android:color/darker_gray">
 
             </View>
@@ -123,10 +122,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:padding="16dp"
+                    android:padding="@dimen/margin_top"
                     android:text="@string/teamName2"
-                    android:textColor="#24b4a3"
-                    android:textSize="14sp"
+                    android:textColor="@color/colorScore"
+                    android:textSize="@dimen/height_size"
                     android:textStyle="italic|bold" />
 
                 <TextView
@@ -138,12 +137,11 @@
                     android:id="@+id/Celtics_score"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
                     android:gravity="center_horizontal"
-                    android:padding="16dp"
+                    android:padding="@dimen/margin_top"
                     android:text="@string/zero"
-                    android:textColor="#24b4a3"
-                    android:textSize="25sp"
+                    android:textColor="@color/colorScore"
+                    android:textSize="@dimen/value_size"
                     android:textStyle="bold" />
 
                 <Button
@@ -151,9 +149,9 @@
                     style="@style/Widget.AppCompat.Button.Colored"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginLeft="@dimen/margin_rl"
+                    android:layout_marginRight="@dimen/margin_rl"
                     android:onClick="addOneForCeltics"
                     android:text="@string/onePoint" />
 
@@ -162,9 +160,9 @@
                     style="@style/Widget.AppCompat.Button.Colored"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginLeft="@dimen/margin_rl"
+                    android:layout_marginRight="@dimen/margin_rl"
                     android:onClick="addTwoForCeltics"
                     android:text="@string/twoPoint" />
 
@@ -173,9 +171,9 @@
                     style="@style/Widget.AppCompat.Button.Colored"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginLeft="@dimen/margin_rl"
+                    android:layout_marginRight="@dimen/margin_rl"
                     android:onClick="addthreeForCeltics"
                     android:text="@string/threePoint" />
 
@@ -186,11 +184,11 @@
                     style="@style/Widget.AppCompat.Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginEnd="24dp"
-                    android:layout_marginLeft="54dp"
-                    android:layout_marginRight="24dp"
-                    android:layout_marginStart="54dp"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginEnd="@dimen/margin_rl"
+                    android:layout_marginLeft="@dimen/margin_leftR"
+                    android:layout_marginRight="@dimen/margin_rl"
+                    android:layout_marginStart="@dimen/margin_leftR"
                     android:onClick="foulCeltics"
                     android:text="@string/foulButtonText" />
 
@@ -204,7 +202,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:background="#C1264E"
+            android:background="@color/colorReset"
             android:onClick="resetScore"
             android:text="@string/resetButtonText" />
 
